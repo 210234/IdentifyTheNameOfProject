@@ -117,7 +117,7 @@ if __name__=='__main__':
     # Entry box for input from user
     e= Entry(root)
 
-
+    # setting focus
     e.focus_set()
     root.bind('<Return>',startGame)
 
